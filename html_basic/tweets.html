@@ -2,32 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Name - Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweets</title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-<header>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-    </ul>
-</header>
+    <main>
+        <article>
+            <h1>Sample Embedded Tweet</h1>
+            <p>Below is an example of an embedded tweet.</p>
 
-<main>
-    <article>
-        <!-- PAGE-SPECIFIC CONTENT GOES HERE -->
-        <h1>Main Heading</h1>
-        <p>Example paragraph content describing the page.</p>
-        <a href="https://example.com" target="_blank">Example Link</a>
-        <!-- You can add images, tables, embedded tweets, etc., here -->
-    </article>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Learning HTML structure is the first step to mastering web development!</p>
+                &mdash; Example Dev (@exampledev)
+                <a href="https://twitter.com/exampledev/status/1234567890">Tweet link</a>
+            </blockquote>
 
-    <aside>
-        <p>placeholder to add comment thread later</p>
-    </aside>
-</main>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
 
-<footer><p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a></p></footer>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
 
+    <footer>
+        <p>Made by Dennis Kimathi - <a href="https://github.com" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
+
